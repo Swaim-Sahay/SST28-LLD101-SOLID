@@ -1,4 +1,4 @@
-# Adapter — Payments (Refactoring)
+# Adaster — Payments (Refactoring)
 
 ## Narrative (Current Code)
 OrderService directly depends on two mismatched SDKs (`FastPayClient`, `SafeCashClient`), uses a string `provider` switch, and duplicates glue logic.
